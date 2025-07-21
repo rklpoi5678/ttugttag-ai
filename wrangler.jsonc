@@ -1,0 +1,12 @@
+{
+    "name": "ttugttag-ai",
+    "account_id": "38dc0a2ae4967ef77741e1faef561042",
+    "main": "./.cloudflare/worker.js",
+    "site": {
+        "bucket": "./.cloudflare/public"
+    },
+    "build": {
+        "command": "bun run build"
+    },
+    "compatibility_date": "2025-07-20"
+}
